@@ -1,0 +1,3 @@
+#Image folder description
+
+This folder is where all the images come from
