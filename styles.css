@@ -1,0 +1,129 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.white-txt {
+    color: white;
+}
+
+.first-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.txt-centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 800px) {
+    /* .txt-centered {
+        font-size: 2rem;
+    } */
+    .p-centered {
+        font-size: 1rem;
+        padding-top: 1rem;
+        top: 60%;
+    }
+}
+
+@media (max-width: 900px) {
+    .txt-centered {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .txt-centered {
+        top: 50%;
+    }
+
+    .p-centered {
+        display: none;
+    }
+}
+
+.light-bg {
+    background-color: #C0F0F7;
+}
+
+.gradient-bg {
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.gray-bg {
+    background-color: #B9B7BD;
+}
+
+.box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.list-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-footer > a {
+    padding: 1rem;
+}
+
+.footer-img {
+    width: 120px;
+}
+
+.sunrun {
+    width: 140px;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-img {
+        margin-bottom: 1rem;
+    }
+}
