@@ -1,1 +1,1 @@
-console.log('Hi there! Welcome to Level Solar!)
+console.log('Hi there! Welcome to Level Solar!')
