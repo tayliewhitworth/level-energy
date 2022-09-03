@@ -62,6 +62,14 @@ nav {
     .p-centered {
         display: none;
     }
+
+}
+
+@media (max-width: 600px) {
+    .desc-text {
+        padding-top: 15px;
+    }
+
 }
 
 .light-bg {
